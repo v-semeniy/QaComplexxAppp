@@ -328,3 +328,4 @@ class TestLoginPage(BaseTest):
             ".//div[contains(text(), 'Username must be at least 3 characters.')]")
         assert username_error_message.is_displayed()
         self.log.info("Save new post still displayed")
+        sleep(4)
